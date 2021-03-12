@@ -3528,12 +3528,12 @@ chika.on('group-participants-update', async (anu) => {
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
                     wew = fs.readFileSync(`./src/logo.jpg`)
-                    shiz = ` 「 *FUJIWARA CHIKA* 」
+                    shiz = ` 「 *JUNAEDI BOT* 」
 ◪ *INFO BOT*
-  ❏ Nama: FUJIWARA CHIKA 
+  ❏ Nama: JUNN BOT 
   ❏ Version: 3.0
-  ❏ Type: Termux
-  ❏ Owner: Sofyan AMV 
+  ❏ Type: Command
+  ❏ Owner: ᴊᴜɴᴀᴇᴅɪɪɴᴅʀᴀ
   ❏ wa.me/6281227825649
   ----------------------------------
 ◪ *YOUR INFO*
