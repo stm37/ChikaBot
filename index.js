@@ -49,9 +49,9 @@ const { ind } = require('./bahasa')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Sofyan AMV\n' //ganti nama lu! 
+            + 'FN:junaediiDaxx\n' //ganti nama lu! 
             + 'ORG: Owner Bot;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6281227825649:+62 812-2782-5649\n'  //ganti nomor lu! 
+            + 'TEL;type=CELL;type=VOICE;waid=62895605030379:+62 895-6050-30379\n'  //ganti nomor lu! 
             + 'END:VCARD'
 prefix = 'z'
 blocked = []   
@@ -60,7 +60,7 @@ memberlimit = 0
 cr = '*VERIFIED*'
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["6281227825649@s.whatsapp.net"]   //ganti nomor lu! 
+const ownerNumber = ["62895605030379@s.whatsapp.net"]   //ganti nomor lu! 
 const pacarNumber = ["6281534162316@s.whatsapp.net"]  //ganti nomor lu!  
 /************************************/
 
@@ -4011,7 +4011,7 @@ chika.on('group-participants-update', async (anu) => {
 		case 'info':
 					me = chika.user
 					uptime = process.uptime()
-					teks = `*INFO OWNER*\n*Owner bot* : Sofyan AMV\n*No Owner* : wa.me/6281227825649\n*Ig owner* : www.instagram.com/Sofyan_Amv09\n━━━━━━━━━━━━━━━━━━━━\n*INFO BOT*\n*Nama bot* : ${me.name}\n*Nomor bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total block contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}\n*Ketik* : ${prefix}lpr _Untuk melaporkan admin bot melalui bot_\n*Ketik* : ${prefix}owner untuk menghubungi admin bot kami.`
+					teks = `*INFO OWNER*\n*Owner bot* : ᴊᴜɴᴀᴇᴅɪɪɴᴅʀᴀ\n*No Owner* : wa.me/62895605030379\n*Ig owner* : www.instagram.com/junaediiii7_\n━━━━━━━━━━━━━━━━━━━━\n*INFO BOT*\n*Nama bot* : ${me.name}\n*Nomor bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total block contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}\n*Ketik* : ${prefix}lpr _Untuk melaporkan admin bot melalui bot_\n*Ketik* : ${prefix}owner untuk menghubungi admin bot kami.`
 					buffer = await getBuffer(me.imgUrl)
 					chika.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -4952,17 +4952,17 @@ chika.on('group-participants-update', async (anu) => {
 					chika.sendMessage(from, 'Waalaikumusalam',MessageType.text, { quoted: amv} )
 					break
 		case 'kontol':
-					chika.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6281227825649',MessageType.text, { quoted: amv} )
+					chika.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/62895605030379',MessageType.text, { quoted: amv} )
 					break
 
 		case 'jembut':
-					chika.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6281227825649',MessageType.text, { quoted: amv} )
+					chika.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/62895605030379',MessageType.text, { quoted: amv} )
 					break
 		case 'ngentod':
-					chika.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6281227825649',MessageType.text, { quoted: amv} )
+					chika.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/62895605030379',MessageType.text, { quoted: amv} )
 					break
 		case 'kntl':
-					chika.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6281227825649',MessageType.text, { quoted: amv} )
+					chika.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/62895605030379',MessageType.text, { quoted: amv} )
 					break
 
 		case 'wa.me':
@@ -5056,7 +5056,7 @@ chika.on('group-participants-update', async (anu) => {
 						reply('*Suksess broadcast* ')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `*「 BROADCAST CHIKA 」*\n\n${body.slice(4)}`)
+							sendMess(_.jid, `*「 BROADCAST JUNN 」*\n\n${body.slice(4)}`)
 						}
 						reply('*Suksess broadcast* ')
 					}
@@ -5074,7 +5074,7 @@ chika.on('group-participants-update', async (anu) => {
 						reply('*Suksess broadcast* ')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `*「 BROADCAST CHIKA 」*\n\n${body.slice(4)}`)
+							sendMess(_.jid, `*「 BROADCAST JUNN 」*\n\n${body.slice(4)}`)
 						}
 						reply('*Suksess broadcast* ')
 					}
