@@ -4928,7 +4928,7 @@ chika.on('group-participants-update', async (anu) => {
 					chika.sendMessage(from, 'Level 100 = Free 3 day (premium)\n10k = 30day (premium)',MessageType.text, { quoted: amv} )
 					break
 		case 'buypremium':
-					chika.sendMessage(from, 'Ingin membeli premium?\nHarap hubungi kami : wa.me/6281227825649',MessageType.text, { quoted: amv} )
+					chika.sendMessage(from, 'Ingin membeli premium?\nHarap hubungi kami : wa.me/62895605030379',MessageType.text, { quoted: amv} )
 					break
 		case 'buypremunlimited':
 					if (!isPremium) return reply('Maaf kamu bukan user premium!')
@@ -4952,14 +4952,14 @@ chika.on('group-participants-update', async (anu) => {
 					chika.sendMessage(from, 'Waalaikumusalam',MessageType.text, { quoted: amv} )
 					break
 		case 'kontol':
-					chika.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6281227825649',MessageType.text, { quoted: amv} )
+					chika.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/62895605030379',MessageType.text, { quoted: amv} )
 					break
 
 		case 'jembut':
-					chika.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6281227825649',MessageType.text, { quoted: amv} )
+					chika.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/62895605030379',MessageType.text, { quoted: amv} )
 					break
 		case 'ngentod':
-					chika.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6281227825649',MessageType.text, { quoted: amv} )
+					chika.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/62895605030379',MessageType.text, { quoted: amv} )
 					break
 		case 'kntl':
 					chika.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6281227825649',MessageType.text, { quoted: amv} )
